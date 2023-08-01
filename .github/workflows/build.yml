@@ -1,0 +1,7 @@
+
+name: Simple Local
+on: push
+  jobs:
+    first:
+        - name: Hello
+        - run: echo "Ola pessoal"
